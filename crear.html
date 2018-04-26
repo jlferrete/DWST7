@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ES">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<h1>Añadir un nuevo libro</h1>
+	<form action="crear.php" method="POST">
+	<label for="nombreLibro">Titulo:</label><input type="text" name="nombreLibro" id="nombreLibro" required/><br/><br/>
+	<label for="autor">Autor:</label><input type="text" name="autor" id="autor" required/><br/><br/>
+	<label for="isbn">ISBN:</label><input type="number" name="isbn" id="isbn" required/><br/><br/>
+	<label for="puntuacion">Puntuación:</label><input type="number" name="puntuacion" id="puntuacion" required/><br/><br/>
+	<label for="genero">Género:</label><input type="text" name="genero" id="genero" required/><br/><br/>
+	
+	<input type="submit" name="Acceder" value="Enviar datos"/>
+	</form>
+	
+</body>
+</html>
